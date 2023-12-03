@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/f/Projects/SecondTryLIB/SecondTryLIB.tests/SecondTryLIB.tests.csproj": {}
+  },
+  "projects": {
+    "/Users/f/Projects/SecondTryLIB/SecondTryLIB.tests/SecondTryLIB.tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/f/Projects/SecondTryLIB/SecondTryLIB.tests/SecondTryLIB.tests.csproj",
+        "projectName": "SecondTryLIB.tests",
+        "projectPath": "/Users/f/Projects/SecondTryLIB/SecondTryLIB.tests/SecondTryLIB.tests.csproj",
+        "packagesPath": "/Users/f/.nuget/packages/",
+        "outputPath": "/Users/f/Projects/SecondTryLIB/SecondTryLIB.tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/f/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/f/Projects/SecondTryLIB/SecondTryLIB/SecondTryLIB.csproj": {
+                "projectPath": "/Users/f/Projects/SecondTryLIB/SecondTryLIB/SecondTryLIB.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/f/Projects/SecondTryLIB/SecondTryLIB/SecondTryLIB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/f/Projects/SecondTryLIB/SecondTryLIB/SecondTryLIB.csproj",
+        "projectName": "SecondTryLIB",
+        "projectPath": "/Users/f/Projects/SecondTryLIB/SecondTryLIB/SecondTryLIB.csproj",
+        "packagesPath": "/Users/f/.nuget/packages/",
+        "outputPath": "/Users/f/Projects/SecondTryLIB/SecondTryLIB/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/f/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

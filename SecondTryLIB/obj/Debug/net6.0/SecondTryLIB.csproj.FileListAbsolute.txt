@@ -1,0 +1,12 @@
+/Users/f/Projects/SecondTryLIB/SecondTryLIB/bin/Debug/net6.0/SecondTryLIB.deps.json
+/Users/f/Projects/SecondTryLIB/SecondTryLIB/bin/Debug/net6.0/SecondTryLIB.dll
+/Users/f/Projects/SecondTryLIB/SecondTryLIB/bin/Debug/net6.0/SecondTryLIB.pdb
+/Users/f/Projects/SecondTryLIB/SecondTryLIB/obj/Debug/net6.0/SecondTryLIB.csproj.AssemblyReference.cache
+/Users/f/Projects/SecondTryLIB/SecondTryLIB/obj/Debug/net6.0/SecondTryLIB.GeneratedMSBuildEditorConfig.editorconfig
+/Users/f/Projects/SecondTryLIB/SecondTryLIB/obj/Debug/net6.0/SecondTryLIB.AssemblyInfoInputs.cache
+/Users/f/Projects/SecondTryLIB/SecondTryLIB/obj/Debug/net6.0/SecondTryLIB.AssemblyInfo.cs
+/Users/f/Projects/SecondTryLIB/SecondTryLIB/obj/Debug/net6.0/SecondTryLIB.csproj.CoreCompileInputs.cache
+/Users/f/Projects/SecondTryLIB/SecondTryLIB/obj/Debug/net6.0/SecondTryLIB.dll
+/Users/f/Projects/SecondTryLIB/SecondTryLIB/obj/Debug/net6.0/refint/SecondTryLIB.dll
+/Users/f/Projects/SecondTryLIB/SecondTryLIB/obj/Debug/net6.0/SecondTryLIB.pdb
+/Users/f/Projects/SecondTryLIB/SecondTryLIB/obj/Debug/net6.0/ref/SecondTryLIB.dll
