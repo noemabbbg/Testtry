@@ -23,7 +23,5 @@ namespace SecondTryLIB.Tests.TriangleTests
             Console.WriteLine($"Тест на прямоугольный треугольник (3, 3, 3): Результат = {isRight}");
             Assert.IsFalse(isRight);
         }
-
-        // Остальные тесты...
     }
 }
