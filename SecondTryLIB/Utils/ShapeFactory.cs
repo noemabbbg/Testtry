@@ -1,5 +1,4 @@
-﻿// В файле ShapeFactory.cs
-using SecondTryLIB.Interfaces;
+﻿using SecondTryLIB.Interfaces;
 using SecondTryLIB.Models;
 
 public static class ShapeFactory
@@ -13,7 +12,7 @@ public static class ShapeFactory
             case "triangle":
                 return new Triangle(args[0], args[1], args[2]);
             default:
-                throw new ArgumentException("Invalid shape type");
+                throw new ArgumentException("Invalid type");
         }
     }
 }

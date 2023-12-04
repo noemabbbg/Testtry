@@ -14,7 +14,7 @@ namespace SecondTryLIB.Tests.CircleTests
             var circle = new Circle(radius);
             var area = circle.CalculateArea();
             Console.WriteLine($"Тест вычисления площади круга: Ожидаемая площадь = {expectedArea}, Полученная площадь = {area}");
-            Assert.AreEqual(expectedArea, area, 1E-6);
+            Assert.AreEqual(expectedArea, area, 1e-6);
         }
         [Test]
         public void CalculateArea_ValidRadius_ReturnsCorrectArea()

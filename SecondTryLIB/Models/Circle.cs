@@ -10,7 +10,7 @@ namespace SecondTryLIB.Models
         public Circle(double radius)
         {
             if (radius <= 0)
-                throw new ArgumentException("Radius must be positive.");
+                throw new ArgumentException("Радиус должен быть положительным");
             Radius = radius;
         }
 

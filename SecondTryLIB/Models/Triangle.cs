@@ -12,7 +12,7 @@ namespace SecondTryLIB.Models
         public Triangle(double sideA, double sideB, double sideC)
         {
             if (sideA <= 0 || sideB <= 0 || sideC <= 0)
-                throw new ArgumentException("Sides must be positive.");
+                throw new ArgumentException("Стороны должны быть положительными");
             if (sideA + sideB <= sideC || sideA + sideC <= sideB || sideB + sideC <= sideA)
                 throw new ArgumentException("Invalid triangle sides.");
 
@@ -27,11 +27,11 @@ namespace SecondTryLIB.Models
             return Math.Sqrt(s * (s - SideA) * (s - SideB) * (s - SideC));
         }
 
-        public bool IsRightAngled()
+        public bool IsRightAngle()
         {
             double[] sides = { SideA, SideB, SideC };
             Array.Sort(sides);
-            return Math.Abs(sides[2] * sides[2] - (sides[0] * sides[0] + sides[1] * sides[1])) < 1E-10;
+            return Math.Abs(sides[2] * sides[2] - (sides[0] * sides[0] + sides[1] * sides[1])) < 1E-10; //?
         }
     }
 }
